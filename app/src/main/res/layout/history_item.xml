@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraint_itemview_container"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_container"
+        android:layout_width="match_parent"
+
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txv_id"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txv_valueA"
+
+        android:gravity="center"
+        tools:text="ID"
+        />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/txv_id"
+            />
+
+    <TextView
+        android:id="@+id/txv_valueA"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toEndOf="@id/txv_id"
+        app:layout_constraintEnd_toStartOf="@id/txv_valueB"
+        tools:text="Valor A"
+        android:gravity="center"
+        />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/txv_valueA"
+            />
+
+    <TextView
+        android:id="@+id/txv_valueB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toEndOf="@id/txv_valueA"
+        app:layout_constraintEnd_toStartOf="@id/txv_operation"
+        android:gravity="center"
+        tools:text="Valor B"
+        />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/txv_valueB"
+            />
+
+    <TextView
+        android:id="@+id/txv_operation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toEndOf="@id/txv_valueB"
+        app:layout_constraintEnd_toStartOf="@id/txv_result"
+        android:gravity="center"
+        tools:text="Operação"
+        />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/txv_operation"
+            />
+
+    <TextView
+        android:id="@+id/txv_result"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toEndOf="@id/txv_operation"
+        app:layout_constraintEnd_toStartOf="@id/txv_date"
+        tools:text="Resultado"
+        android:gravity="center"
+        />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            app:layout_constraintStart_toEndOf="@id/txv_result"
+            />
+
+    <TextView
+        android:id="@+id/txv_date"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        style="@style/Theme.Calculadora.HistoryItem"
+        app:layout_constraintStart_toEndOf="@id/txv_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        tools:text="Data"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        app:layout_constraintTop_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

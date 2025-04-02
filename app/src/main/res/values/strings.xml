@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="plus_symbol" translatable="false">+</string>
+    <string name="minus_symbol" translatable="false">-</string>
+    <string name="multiply_symbol" translatable="false">x</string>"
+    <string name="divide_symbol" translatable="false">÷</string>"
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="value_a">Value A</string>
+    <string name="value_b">Value B</string>
+    <string name="operation">Operation</string>
+    <string name="date">Date</string>
+    <string name="history">History</string>
+    <string name="empty_fields">The value fields cannot be empty</string>
+    <string name="invalid_value">Invalid values</string>"
+    <string name="date_format" translatable="false">dd/MM/yyyy HH:mm:ss</string>
+    <string name="divison_zero">It can\'t be divided by zero</string>
+    <string name="clear_data">Clear data</string>
+    <string name="data_stored">Data stored successfully, storage ID %1$d</string>
+    <string name="saving">Saving...</string>
+    <string name="delete_title">Do you want to delete this register?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleted">Register successfully deleted</string>
+    <string name="cleared">All data successfully cleared</string>
+    <string name="empty_history">Empty history</string>
+    
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="calculate">Calcular</string>
+    <string name="result">Resultado</string>
+    <string name="value_a">Valor A</string>
+    <string name="value_b">Valor B</string>
+    <string name="operation">Operação</string>
+    <string name="date">Data</string>
+    <string name="history">Histórico</string>
+    <string name="empty_fields">Os campos não podem estar vazios</string>
+    <string name="invalid_value">Valores inválidos</string>"
+    <string name="divison_zero">Não pode dividr por zero</string>
+    <string name="clear_data">Limpar histórico</string>
+    <string name="data_stored">Data stored successfully, storage ID %1$d</string>
+    <string name="saving">Gravando...</string>
+    <string name="delete_title">Deseja apagar esse registro?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="deleted">Registro deletado com sucesso</string>
+    <string name="cleared">Histórico limpo com sucesso</string>
+    <string name="empty_history">Histórico vazio</string>"
+</resources>
